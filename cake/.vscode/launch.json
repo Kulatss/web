@@ -1,0 +1,71 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "chrome",
+            "request": "launch",
+            "name": "Open about.html",
+            "file": "c:\\Users\\Naethan\\Downloads\\web-20241201T140728Z-001\\web\\cake\\about.html"
+        },
+        {
+            "type": "chrome",
+            "request": "launch",
+            "name": "Open blog.html",
+            "file": "c:\\Users\\Naethan\\Downloads\\web-20241201T140728Z-001\\web\\cake\\blog.html"
+        },
+        {
+            "type": "chrome",
+            "request": "launch",
+            "name": "Open blog-details.html",
+            "file": "c:\\Users\\Naethan\\Downloads\\web-20241201T140728Z-001\\web\\cake\\blog-details.html"
+        },
+        {
+            "type": "chrome",
+            "request": "launch",
+            "name": "Open checkout.html",
+            "file": "c:\\Users\\Naethan\\Downloads\\web-20241201T140728Z-001\\web\\cake\\checkout.html"
+        },
+        {
+            "type": "chrome",
+            "request": "launch",
+            "name": "Open class.html",
+            "file": "c:\\Users\\Naethan\\Downloads\\web-20241201T140728Z-001\\web\\cake\\class.html"
+        },
+        {
+            "type": "chrome",
+            "request": "launch",
+            "name": "Open contact.html",
+            "file": "c:\\Users\\Naethan\\Downloads\\web-20241201T140728Z-001\\web\\cake\\contact.html"
+        },
+        {
+            "type": "chrome",
+            "request": "launch",
+            "name": "Open index.html",
+            "file": "c:\\Users\\Naethan\\Downloads\\web-20241201T140728Z-001\\web\\cake\\index.html"
+        },
+        {
+            "type": "chrome",
+            "request": "launch",
+            "name": "Open main.html",
+            "file": "c:\\Users\\Naethan\\Downloads\\web-20241201T140728Z-001\\web\\cake\\main.html"
+        },
+        {
+            "type": "chrome",
+            "request": "launch",
+            "name": "Open shopping-cart.html",
+            "file": "c:\\Users\\Naethan\\Downloads\\web-20241201T140728Z-001\\web\\cake\\shopping-cart.html"
+        },
+        {
+            "type": "chrome",
+            "request": "launch",
+            "name": "Open shop-details.html",
+            "file": "c:\\Users\\Naethan\\Downloads\\web-20241201T140728Z-001\\web\\cake\\shop-details.html"
+        },
+        {
+            "type": "chrome",
+            "request": "launch",
+            "name": "Open shop.html",
+            "file": "c:\\Users\\Naethan\\Downloads\\web-20241201T140728Z-001\\web\\cake\\shop.html"
+        }
+    ]
+}

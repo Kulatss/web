@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Details</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <a href="index.html">Home</a> > <a href="shop.html">Shop</a> > <span id="product-name">Product Details</span>
+    </header>
+
+    <section class="product-details">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <img id="product-image" src="" alt="Product Image">
+                </div>
+                <div class="col-lg-6">
+                    <h2 id="product-title"></h2>
+                    <p id="product-description"></p>
+                    <h4 id="product-price"></h4>
+                    <button>Add to Cart</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script>
+        
+        const products = {
+            ClearMug: {
+                title: "Clear Mug",
+                description: "This clear mug is perfect for showcasing your beverages.",
+                price: "$12.99",
+                image: "ClearMugs.jpg",
+            },
+            WoodenHandleMug: {
+                title: "Wooden Handle Mug",
+                description: "A stylish mug with a wooden handle for a unique touch.",
+                price: "$15.99",
+                image: "WoodenHandleMugs.jpg",
+            },
+            
+        };
+
+        
+        const urlParams = new URLSearchParams(window.location.search);
+        const productKey = urlParams.get("product");
+
+        if (productKey && products[productKey]) {
+            const product = products[productKey];
+            document.getElementById("product-title").textContent = product.title;
+            document.getElementById("product-description").textContent = product.description;
+            document.getElementById("product-price").textContent = product.price;
+            document.getElementById("product-image").src = product.image;
+            document.getElementById("product-name").textContent = product.title;
+        } else {
+            document.querySelector(".product-details").innerHTML =
+                "<h2>Product not found.</h2>";
+        }
+    </script>
+</body>
+</html>
